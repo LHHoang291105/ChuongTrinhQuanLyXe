@@ -7,9 +7,8 @@ namespace ChuongTrinhQuanLyXe
     class DsXe
     {
         private readonly List<Xe> DanhSach = new();
-        private readonly HashSet<string> TapBienSoDaCo = new(); // đảm bảo biển số duy nhất
+        private readonly HashSet<string> TapBienSoDaCo = new(); 
 
-        // ===== 1. Thêm xe ô tô =====
         private void ThemXeOto()
         {
             var xe = new XeOto();
@@ -18,7 +17,7 @@ namespace ChuongTrinhQuanLyXe
             Console.WriteLine("Đã thêm Ô TÔ.\n");
         }
 
-        // ===== 2. Thêm xe tải =====
+        
         private void ThemXeTai()
         {
             var xe = new XeTai();
@@ -27,7 +26,7 @@ namespace ChuongTrinhQuanLyXe
             Console.WriteLine("Đã thêm XE TẢI.\n");
         }
 
-        // ===== 3. Xuất danh sách tất cả =====
+        
         private void XuatTatCa()
         {
             Console.WriteLine("=== DANH SÁCH TẤT CẢ XE ===");
@@ -51,7 +50,7 @@ namespace ChuongTrinhQuanLyXe
             Console.WriteLine();
         }
 
-        // ===== 4. Tìm ô tô nhiều chỗ nhất =====
+      
         private List<XeOto> TimOtoSoChoMax()
         {
             var oto = DanhSach.OfType<XeOto>().ToList();
@@ -79,7 +78,7 @@ namespace ChuongTrinhQuanLyXe
             Console.WriteLine();
         }
 
-        // ===== 5. Sắp xếp xe tải theo trọng tải tăng dần =====
+        
         private void SapXepXeTaiTheoTrongTai()
         {
             var tai = DanhSach.OfType<XeTai>().OrderBy(x => x.TrongTaiTan).ToList();
@@ -94,7 +93,7 @@ namespace ChuongTrinhQuanLyXe
             Console.WriteLine();
         }
 
-        // ===== 6. Xuất danh sách biển số đẹp =====
+        
         private void XuatBienSoDep()
         {
             var dep = DanhSach.Where(x => x.LaBienSoDep()).ToList();
@@ -109,7 +108,7 @@ namespace ChuongTrinhQuanLyXe
             Console.WriteLine();
         }
 
-        // ===== 7. Xe thuộc TP.HCM =====
+        
         private void XuatXeThuocTPHCM()
         {
             var otoHCM = DanhSach.OfType<XeOto>().Where(x => x.ThuocTPHCM()).ToList();
