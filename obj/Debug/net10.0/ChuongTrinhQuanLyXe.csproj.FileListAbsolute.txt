@@ -1,0 +1,15 @@
+C:\ConsoleApp1\Chương trình quản lý xe\obj\Debug\net10.0\ChuongTrinhQuanLyXe.GeneratedMSBuildEditorConfig.editorconfig
+C:\ConsoleApp1\Chương trình quản lý xe\obj\Debug\net10.0\ChuongTrinhQuanLyXe.AssemblyInfoInputs.cache
+C:\ConsoleApp1\Chương trình quản lý xe\obj\Debug\net10.0\ChuongTrinhQuanLyXe.AssemblyInfo.cs
+C:\ConsoleApp1\Chương trình quản lý xe\obj\Debug\net10.0\ChuongTrinhQuanLyXe.csproj.CoreCompileInputs.cache
+C:\ConsoleApp1\Chương trình quản lý xe\bin\Debug\net10.0\ChuongTrinhQuanLyXe.exe
+C:\ConsoleApp1\Chương trình quản lý xe\bin\Debug\net10.0\ChuongTrinhQuanLyXe.deps.json
+C:\ConsoleApp1\Chương trình quản lý xe\bin\Debug\net10.0\ChuongTrinhQuanLyXe.runtimeconfig.json
+C:\ConsoleApp1\Chương trình quản lý xe\bin\Debug\net10.0\ChuongTrinhQuanLyXe.dll
+C:\ConsoleApp1\Chương trình quản lý xe\bin\Debug\net10.0\ChuongTrinhQuanLyXe.pdb
+C:\ConsoleApp1\Chương trình quản lý xe\obj\Debug\net10.0\ChuongTrinhQuanLyXe.dll
+C:\ConsoleApp1\Chương trình quản lý xe\obj\Debug\net10.0\refint\ChuongTrinhQuanLyXe.dll
+C:\ConsoleApp1\Chương trình quản lý xe\obj\Debug\net10.0\ChuongTrinhQuanLyXe.pdb
+C:\ConsoleApp1\Chương trình quản lý xe\obj\Debug\net10.0\ChuongTrinhQuanLyXe.genruntimeconfig.cache
+C:\ConsoleApp1\Chương trình quản lý xe\obj\Debug\net10.0\ref\ChuongTrinhQuanLyXe.dll
+C:\ConsoleApp1\Chương trình quản lý xe\obj\Debug\net10.0\ChuongTrinhQuanLyXe.sourcelink.json
